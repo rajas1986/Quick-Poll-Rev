@@ -1,0 +1,77 @@
+<!-- <div
+  class="container border p-1 mat-elevation-z4"
+  style="width: 346px !important; height: 346px !important;"
+>
+  <button mat-icon-button><mat-icon>keyboard_arrow_left</mat-icon></button>
+  <button mat-icon-button><mat-icon>keyboard_arrow_right</mat-icon></button> -->
+<!-- <mat-tab-group
+    animationDuration="0ms"
+    mat-stretch-tabs
+    disablePagination="true"
+  > -->
+<!-- *Working with the odata contents -->
+<!-- <div class="polls-tab" *ngFor="let poll of odataPolls">
+      <mat-tab [label]="poll.PollName" *ngIf="!submittedPolls[poll.PollId]"> -->
+<!-- *For form -->
+<!-- 
+        <app-poll-tab
+          [poll]="poll"
+          (submitted)="OnSubmit($event, poll)"
+        ></app-poll-tab>
+      </mat-tab>
+    </div>
+    <div class="polls-tab" *ngFor="let poll of odataSummary">
+      <mat-tab [label]="poll.PollName + results">
+        <app-results-tab
+          [chartData]="poll.options"
+          [question]="poll.QText"
+        ></app-results-tab>
+      </mat-tab>
+    </div>
+  </mat-tab-group> -->
+<!-- </div> -->
+
+<!--
+  <button mat-icon-button><mat-icon>keyboard_arrow_right</mat-icon></button> -->
+
+  <div
+  class="container p-1 mat-elevation-z4"
+  style="width: 346px !important; height: 346px !important;"
+>
+  <carousel [showIndicators]="false" [interval]="-1">
+    <div *ngFor="let poll of odataPolls">
+      <slide *ngIf="!submittedPolls[poll.PollId]">
+        <div class="text-center text-white">
+          <h6
+            class="p-2 pt-2"
+            style="background-color: rgb(0, 51, 127); border-radius: 3px;"
+          >
+            {{ poll.PollName }}
+          </h6>
+          <div class="lead">
+            <app-poll-tab
+              [poll]="poll"
+              (submitted)="OnSubmit($event, poll)"
+            ></app-poll-tab>
+          </div>
+        </div>
+      </slide>
+    </div>
+    <slide *ngFor="let poll of odataSummary">
+      <div class="text-center text-white">
+        <h6
+          class="p-2 pt-2"
+          style="background-color: rgb(0, 51, 127); border-radius: 7px;"
+        >
+          {{ poll.PollName }}
+        </h6>
+        <div class="lead">
+          <app-results-tab
+            [chartData]="poll.options"
+            [question]="poll.QText"
+          ></app-results-tab>
+        </div>
+      </div>
+    </slide>
+  </carousel>
+</div>

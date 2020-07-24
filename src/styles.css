@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "@angular/material/prebuilt-themes/indigo-pink.css";
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.nav-link {
+  padding: 0 !important;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  height: 35px;
+}
+.mat-card {
+  border-radius: 0 !important ;
+  outline: none;
+}
+div .carousel-inner:focus {
+  outline: none !important;
+}
+slide .item:focus {
+  outline: none !important;
+}
+div .text-center:focus {
+  outline: none !important;
+}
+carousel:focus {
+  outline: none !important;
+}
+div .carousel:focus {
+  outline: none !important;
+}

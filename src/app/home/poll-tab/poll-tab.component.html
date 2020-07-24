@@ -1,0 +1,33 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>{{ poll.QuesText }}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <mat-radio-group
+        class="example-radio-group container"
+        [id]="poll.QuesId"
+        formControlName="questionControl"
+      >
+        <mat-radio-button
+          class="example-radio-button"
+          *ngFor="let opt of poll.options"
+          [value]="opt.key"
+        >
+          {{ opt.value }}
+        </mat-radio-button>
+      </mat-radio-group>
+    </mat-card-content>
+    <mat-card-actions>
+      <button
+        mat-raised-button
+        color="primary"
+        type="submit"
+        style="margin-left: 25px;"
+        [disabled]="form.invalid"
+      >
+        Submit
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</form>

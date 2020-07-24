@@ -1,0 +1,46 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title
+        style="
+          font-size: 13px !important;
+          font-family: Arial, Helvetica, sans-serif, 'opensans' !important;
+          font-weight: bold;
+        "
+        >{{ poll.QText }} <span class="text-danger">*</span>
+      </mat-card-title>
+    </mat-card-header>
+    <mat-card-content style="overflow: auto; height: 200px;" class="mb-5">
+      <mat-radio-group
+        class="example-radio-group container"
+        formControlName="questionControl"
+        style="
+          font-size: 13px !important;
+          font-family: Arial, Helvetica, sans-serif, 'opensans' !important;
+        "
+      >
+        <mat-radio-button
+          class="example-radio-button"
+          *ngFor="let opt of poll.options"
+          [value]="opt.OptionValue"
+        >
+          {{ opt.OptionText }}
+        </mat-radio-button>
+      </mat-radio-group>
+    </mat-card-content>
+    <mat-card-actions
+      style="display: flex; justify-content: flex-end;"
+      class="bg-grey"
+    >
+      <button
+        mat-raised-button
+        color="primary"
+        type="submit"
+        style="margin-left: 25px;"
+        [disabled]="form.invalid"
+      >
+        Submit
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</form>

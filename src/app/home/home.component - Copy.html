@@ -1,0 +1,50 @@
+<div
+  class="container border p-1 mat-elevation-z4"
+  style="width: 346px !important; height: 346px !important;"
+>
+  <!-- <hr /> -->
+  <mat-tab-group animationDuration="0ms" mat-stretch-tabs>
+    <!-- *This is for local data which is working fine. -->
+    <!-- <div class="polls-tab" *ngFor="let poll of polls">
+      <mat-tab [label]="poll.pollName" *ngIf="!submittedPolls[poll.pollName]"> -->
+    <!-- *For form -->
+    <!-- <app-poll-tab [poll]="poll" (submitted)="OnSubmit(poll)"></app-poll-tab>
+      </mat-tab> -->
+    <!-- *Comment this for Design 1 -->
+    <!-- <mat-tab
+        [label]="poll.pollName + results"
+        *ngIf="submittedPolls[poll.pollName]"
+      >
+        <app-results-tab [chartLables]="poll.options"></app-results-tab>
+      </mat-tab>
+    </div> -->
+    <!--* Comment this for Design 2 -->
+    <!-- <div class="polls-tab" *ngFor="let poll of polls">
+      <mat-tab
+        [label]="poll.pollName + results"
+        *ngIf="submittedPolls[poll.pollName]"
+      >
+        <app-results-tab [chartLables]="poll.options"></app-results-tab>
+      </mat-tab>
+    </div> -->
+
+    <!-- *Working with the odata contents -->
+    <div class="polls-tab" *ngFor="let poll of odataPolls">
+      <mat-tab [label]="poll.PollName" *ngIf="!submittedPolls[poll.PollId]">
+        <!-- *For form -->
+        <app-poll-tab
+          [poll]="poll"
+          (submitted)="OnSubmit($event, poll)"
+        ></app-poll-tab>
+      </mat-tab>
+    </div>
+    <div class="polls-tab" *ngFor="let poll of odataSummary">
+      <mat-tab [label]="poll.PollName">
+        <app-results-tab
+          [chartData]="poll.options"
+          [question]="poll.QText"
+        ></app-results-tab>
+      </mat-tab>
+    </div>
+  </mat-tab-group>
+</div>

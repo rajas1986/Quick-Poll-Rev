@@ -1,0 +1,220 @@
+Poll Results.
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xml:base="https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/">
+<id>
+https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollSumHdrSet
+</id>
+<title type="text">GetPollSumHdrSet</title>
+<updated>2020-06-17T17:16:02Z</updated>
+<author>
+<name/>
+</author>
+<link href="GetPollSumHdrSet" rel="self" title="GetPollSumHdrSet"/>
+<entry>
+<id>
+https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollSumHdrSet('DIS')
+</id>
+<title type="text">GetPollSumHdrSet('DIS')</title>
+<updated>2020-06-17T17:16:02Z</updated>
+<category term="ZPOLL_SRV.GetPollSumHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="GetPollSumHdrSet('DIS')" rel="self" title="GetPollSumHdr"/>
+<link href="GetPollSumHdrSet('DIS')/NavGetPollSumHdrToOptions" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/NavGetPollSumHdrToOptions" type="application/atom+xml;type=feed" title="NavGetPollSumHdrToOptions">
+<m:inline>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xml:base="https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/">
+<id>
+https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollSumHdrSet('DIS')/NavGetPollSumHdrToOptions
+</id>
+<title type="text">GetPollSumOptionsSet</title>
+<updated>2020-06-17T17:16:02Z</updated>
+<author>
+<name/>
+</author>
+<link href="GetPollSumHdrSet('DIS')/NavGetPollSumHdrToOptions" rel="self" title="GetPollSumOptionsSet"/>
+<entry>
+<id>
+https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollSumOptionsSet('0000000017')
+</id>
+<title type="text">GetPollSumOptionsSet('0000000017')</title>
+<updated>2020-06-17T17:16:02Z</updated>
+<category term="ZPOLL_SRV.GetPollSumOptions" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="GetPollSumOptionsSet('0000000017')" rel="self" title="GetPollSumOptions"/>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:Pct>43</d:Pct>
+<d:Cnt>3</d:Cnt>
+<d:OptionText>No</d:OptionText>
+<d:Response>N</d:Response>
+<d:PollId>0000000017</d:PollId>
+</m:properties>
+</content>
+</entry>
+<entry>
+<id>
+https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollSumOptionsSet('0000000017')
+</id>
+<title type="text">GetPollSumOptionsSet('0000000017')</title>
+<updated>2020-06-17T17:16:02Z</updated>
+<category term="ZPOLL_SRV.GetPollSumOptions" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="GetPollSumOptionsSet('0000000017')" rel="self" title="GetPollSumOptions"/>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:Pct>57</d:Pct>
+<d:Cnt>4</d:Cnt>
+<d:OptionText>Yes</d:OptionText>
+<d:Response>Y</d:Response>
+<d:PollId>0000000017</d:PollId>
+</m:properties>
+</content>
+</entry>
+<entry>
+<id>
+https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollSumOptionsSet('0000000018')
+</id>
+<title type="text">GetPollSumOptionsSet('0000000018')</title>
+<updated>2020-06-17T17:16:02Z</updated>
+<category term="ZPOLL_SRV.GetPollSumOptions" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="GetPollSumOptionsSet('0000000018')" rel="self" title="GetPollSumOptions"/>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:Pct>100</d:Pct>
+<d:Cnt>1</d:Cnt>
+<d:OptionText>Mango</d:OptionText>
+<d:Response>M</d:Response>
+<d:PollId>0000000018</d:PollId>
+</m:properties>
+</content>
+</entry>
+<entry>
+<id>
+https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollSumOptionsSet('0000000018')
+</id>
+<title type="text">GetPollSumOptionsSet('0000000018')</title>
+<updated>2020-06-17T17:16:02Z</updated>
+<category term="ZPOLL_SRV.GetPollSumOptions" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="GetPollSumOptionsSet('0000000018')" rel="self" title="GetPollSumOptions"/>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:Pct>0</d:Pct>
+<d:Cnt>0</d:Cnt>
+<d:OptionText>Apple</d:OptionText>
+<d:Response>A</d:Response>
+<d:PollId>0000000018</d:PollId>
+</m:properties>
+</content>
+</entry>
+<entry>
+<id>
+https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollSumOptionsSet('0000000018')
+</id>
+<title type="text">GetPollSumOptionsSet('0000000018')</title>
+<updated>2020-06-17T17:16:02Z</updated>
+<category term="ZPOLL_SRV.GetPollSumOptions" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="GetPollSumOptionsSet('0000000018')" rel="self" title="GetPollSumOptions"/>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:Pct>0</d:Pct>
+<d:Cnt>0</d:Cnt>
+<d:OptionText>Watermellon</d:OptionText>
+<d:Response>W</d:Response>
+<d:PollId>0000000018</d:PollId>
+</m:properties>
+</content>
+</entry>
+<entry>
+<id>
+https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollSumOptionsSet('0000000018')
+</id>
+<title type="text">GetPollSumOptionsSet('0000000018')</title>
+<updated>2020-06-17T17:16:02Z</updated>
+<category term="ZPOLL_SRV.GetPollSumOptions" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="GetPollSumOptionsSet('0000000018')" rel="self" title="GetPollSumOptions"/>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:Pct>0</d:Pct>
+<d:Cnt>0</d:Cnt>
+<d:OptionText>Pineapple</d:OptionText>
+<d:Response>P</d:Response>
+<d:PollId>0000000018</d:PollId>
+</m:properties>
+</content>
+</entry>
+<entry>
+<id>
+https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollSumOptionsSet('0000000018')
+</id>
+<title type="text">GetPollSumOptionsSet('0000000018')</title>
+<updated>2020-06-17T17:16:02Z</updated>
+<category term="ZPOLL_SRV.GetPollSumOptions" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="GetPollSumOptionsSet('0000000018')" rel="self" title="GetPollSumOptions"/>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:Pct>0</d:Pct>
+<d:Cnt>0</d:Cnt>
+<d:OptionText>Banana</d:OptionText>
+<d:Response>B</d:Response>
+<d:PollId>0000000018</d:PollId>
+</m:properties>
+</content>
+</entry>
+</feed>
+</m:inline>
+</link>
+<link href="GetPollSumHdrSet('DIS')/NavGetPollSumHdrToQues" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/NavGetPollSumHdrToQues" type="application/atom+xml;type=feed" title="NavGetPollSumHdrToQues">
+<m:inline>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xml:base="https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/">
+<id>
+https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollSumHdrSet('DIS')/NavGetPollSumHdrToQues
+</id>
+<title type="text">GetPollSumQuesSet</title>
+<updated>2020-06-17T17:16:02Z</updated>
+<author>
+<name/>
+</author>
+<link href="GetPollSumHdrSet('DIS')/NavGetPollSumHdrToQues" rel="self" title="GetPollSumQuesSet"/>
+<entry>
+<id>
+https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollSumQuesSet('0000000017')
+</id>
+<title type="text">GetPollSumQuesSet('0000000017')</title>
+<updated>2020-06-17T17:16:02Z</updated>
+<category term="ZPOLL_SRV.GetPollSumQues" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="GetPollSumQuesSet('0000000017')" rel="self" title="GetPollSumQues"/>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:NoOfOptions>2</d:NoOfOptions>
+<d:Response>Y</d:Response>
+<d:QText>
+Have you selected your Incometax regime in Rconnect?
+</d:QText>
+<d:PollId>0000000017</d:PollId>
+</m:properties>
+</content>
+</entry>
+<entry>
+<id>
+https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollSumQuesSet('0000000018')
+</id>
+<title type="text">GetPollSumQuesSet('0000000018')</title>
+<updated>2020-06-17T17:16:02Z</updated>
+<category term="ZPOLL_SRV.GetPollSumQues" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="GetPollSumQuesSet('0000000018')" rel="self" title="GetPollSumQues"/>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:NoOfOptions>5</d:NoOfOptions>
+<d:Response>M</d:Response>
+<d:QText>
+Which fruit from the following is sweetest of all ?
+</d:QText>
+<d:PollId>0000000018</d:PollId>
+</m:properties>
+</content>
+</entry>
+</feed>
+</m:inline>
+</link>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:Mode>DIS</d:Mode>
+</m:properties>
+</content>
+</entry>
+</feed>

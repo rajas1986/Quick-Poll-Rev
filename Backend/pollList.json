@@ -1,0 +1,369 @@
+{
+    "feed": {
+       "id": "https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollHdrSet",
+       "title": {
+          "_type": "text",
+          "__text": "GetPollHdrSet"
+       },
+       "updated": "2020-06-17T17:19:15Z",
+       "author": {
+          "name": ""
+       },
+       "link": [
+          {
+             "_href": "GetPollHdrSet",
+             "_rel": "self",
+             "_title": "GetPollHdrSet"
+          }
+       ],
+       "entry": [
+          {
+             "id": "https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollHdrSet('DIS')",
+             "title": {
+                "_type": "text",
+                "__text": "GetPollHdrSet('DIS')"
+             },
+             "updated": "2020-06-17T17:19:15Z",
+             "category": {
+                "_term": "ZPOLL_SRV.GetPollHdr",
+                "_scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+             },
+             "link": [
+                {
+                   "_href": "GetPollHdrSet('DIS')",
+                   "_rel": "self",
+                   "_title": "GetPollHdr"
+                },
+                {
+                   "inline": {
+                      "feed": {
+                         "id": "https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollHdrSet('DIS')/NavGetPollHdrToQues",
+                         "title": {
+                            "_type": "text",
+                            "__text": "GetPollQuesSet"
+                         },
+                         "updated": "2020-06-17T17:19:15Z",
+                         "author": {
+                            "name": ""
+                         },
+                         "link": [
+                            {
+                               "_href": "GetPollHdrSet('DIS')/NavGetPollHdrToQues",
+                               "_rel": "self",
+                               "_title": "GetPollQuesSet"
+                            }
+                         ],
+                         "entry": [
+                            {
+                               "id": "https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollQuesSet('0000000019')",
+                               "title": {
+                                  "_type": "text",
+                                  "__text": "GetPollQuesSet('0000000019')"
+                               },
+                               "updated": "2020-06-17T17:19:15Z",
+                               "category": {
+                                  "_term": "ZPOLL_SRV.GetPollQues",
+                                  "_scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+                               },
+                               "link": [
+                                  {
+                                     "_href": "GetPollQuesSet('0000000019')",
+                                     "_rel": "self",
+                                     "_title": "GetPollQues"
+                                  }
+                               ],
+                               "content": {
+                                  "properties": {
+                                     "PollId": {
+                                        "__text": "0000000019"
+                                     },
+                                     "QText": {
+                                        "__text": "Have you completed your PME ?"
+                                     },
+                                     "Response": {},
+                                     "NoOfOptions": {
+                                        "__text": "2"
+                                     },
+                                     "_xmlns:m": "http://schemas.microsoft.com/ado/2007/08/dataservices/metadata",
+                                     "_xmlns:d": "http://schemas.microsoft.com/ado/2007/08/dataservices"
+                                  },
+                                  "_type": "application/xml"
+                               }
+                            },
+                            {
+                               "id": "https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollQuesSet('0000000020')",
+                               "title": {
+                                  "_type": "text",
+                                  "__text": "GetPollQuesSet('0000000020')"
+                               },
+                               "updated": "2020-06-17T17:19:15Z",
+                               "category": {
+                                  "_term": "ZPOLL_SRV.GetPollQues",
+                                  "_scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+                               },
+                               "link": [
+                                  {
+                                     "_href": "GetPollQuesSet('0000000020')",
+                                     "_rel": "self",
+                                     "_title": "GetPollQues"
+                                  }
+                               ],
+                               "content": {
+                                  "properties": {
+                                     "PollId": {
+                                        "__text": "0000000020"
+                                     },
+                                     "QText": {
+                                        "__text": "Which group are you working for?"
+                                     },
+                                     "Response": {},
+                                     "NoOfOptions": {
+                                        "__text": "3"
+                                     },
+                                     "_xmlns:m": "http://schemas.microsoft.com/ado/2007/08/dataservices/metadata",
+                                     "_xmlns:d": "http://schemas.microsoft.com/ado/2007/08/dataservices"
+                                  },
+                                  "_type": "application/xml"
+                               }
+                            }
+                         ],
+                         "_xmlns": "http://www.w3.org/2005/Atom",
+                         "_xmlns:m": "http://schemas.microsoft.com/ado/2007/08/dataservices/metadata",
+                         "_xmlns:d": "http://schemas.microsoft.com/ado/2007/08/dataservices",
+                         "_xml:base": "https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/"
+                      }
+                   },
+                   "_href": "GetPollHdrSet('DIS')/NavGetPollHdrToQues",
+                   "_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/NavGetPollHdrToQues",
+                   "_type": "application/atom+xml;type=feed",
+                   "_title": "NavGetPollHdrToQues"
+                },
+                {
+                   "inline": {
+                      "feed": {
+                         "id": "https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollHdrSet('DIS')/NavGetPollHdrToOptions",
+                         "title": {
+                            "_type": "text",
+                            "__text": "GetPollOptionsSet"
+                         },
+                         "updated": "2020-06-17T17:19:15Z",
+                         "author": {
+                            "name": ""
+                         },
+                         "link": [
+                            {
+                               "_href": "GetPollHdrSet('DIS')/NavGetPollHdrToOptions",
+                               "_rel": "self",
+                               "_title": "GetPollOptionsSet"
+                            }
+                         ],
+                         "entry": [
+                            {
+                               "id": "https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollOptionsSet('0000000019')",
+                               "title": {
+                                  "_type": "text",
+                                  "__text": "GetPollOptionsSet('0000000019')"
+                               },
+                               "updated": "2020-06-17T17:19:15Z",
+                               "category": {
+                                  "_term": "ZPOLL_SRV.GetPollOptions",
+                                  "_scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+                               },
+                               "link": [
+                                  {
+                                     "_href": "GetPollOptionsSet('0000000019')",
+                                     "_rel": "self",
+                                     "_title": "GetPollOptions"
+                                  }
+                               ],
+                               "content": {
+                                  "properties": {
+                                     "PollId": {
+                                        "__text": "0000000019"
+                                     },
+                                     "OptionValue": {
+                                        "__text": "Y"
+                                     },
+                                     "OptionText": {
+                                        "__text": "Yes"
+                                     },
+                                     "_xmlns:m": "http://schemas.microsoft.com/ado/2007/08/dataservices/metadata",
+                                     "_xmlns:d": "http://schemas.microsoft.com/ado/2007/08/dataservices"
+                                  },
+                                  "_type": "application/xml"
+                               }
+                            },
+                            {
+                               "id": "https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollOptionsSet('0000000019')",
+                               "title": {
+                                  "_type": "text",
+                                  "__text": "GetPollOptionsSet('0000000019')"
+                               },
+                               "updated": "2020-06-17T17:19:15Z",
+                               "category": {
+                                  "_term": "ZPOLL_SRV.GetPollOptions",
+                                  "_scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+                               },
+                               "link": [
+                                  {
+                                     "_href": "GetPollOptionsSet('0000000019')",
+                                     "_rel": "self",
+                                     "_title": "GetPollOptions"
+                                  }
+                               ],
+                               "content": {
+                                  "properties": {
+                                     "PollId": {
+                                        "__text": "0000000019"
+                                     },
+                                     "OptionValue": {
+                                        "__text": "N"
+                                     },
+                                     "OptionText": {
+                                        "__text": "No"
+                                     },
+                                     "_xmlns:m": "http://schemas.microsoft.com/ado/2007/08/dataservices/metadata",
+                                     "_xmlns:d": "http://schemas.microsoft.com/ado/2007/08/dataservices"
+                                  },
+                                  "_type": "application/xml"
+                               }
+                            },
+                            {
+                               "id": "https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollOptionsSet('0000000020')",
+                               "title": {
+                                  "_type": "text",
+                                  "__text": "GetPollOptionsSet('0000000020')"
+                               },
+                               "updated": "2020-06-17T17:19:15Z",
+                               "category": {
+                                  "_term": "ZPOLL_SRV.GetPollOptions",
+                                  "_scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+                               },
+                               "link": [
+                                  {
+                                     "_href": "GetPollOptionsSet('0000000020')",
+                                     "_rel": "self",
+                                     "_title": "GetPollOptions"
+                                  }
+                               ],
+                               "content": {
+                                  "properties": {
+                                     "PollId": {
+                                        "__text": "0000000020"
+                                     },
+                                     "OptionValue": {
+                                        "__text": "RR"
+                                     },
+                                     "OptionText": {
+                                        "__text": "Reliance Retail"
+                                     },
+                                     "_xmlns:m": "http://schemas.microsoft.com/ado/2007/08/dataservices/metadata",
+                                     "_xmlns:d": "http://schemas.microsoft.com/ado/2007/08/dataservices"
+                                  },
+                                  "_type": "application/xml"
+                               }
+                            },
+                            {
+                               "id": "https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollOptionsSet('0000000020')",
+                               "title": {
+                                  "_type": "text",
+                                  "__text": "GetPollOptionsSet('0000000020')"
+                               },
+                               "updated": "2020-06-17T17:19:15Z",
+                               "category": {
+                                  "_term": "ZPOLL_SRV.GetPollOptions",
+                                  "_scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+                               },
+                               "link": [
+                                  {
+                                     "_href": "GetPollOptionsSet('0000000020')",
+                                     "_rel": "self",
+                                     "_title": "GetPollOptions"
+                                  }
+                               ],
+                               "content": {
+                                  "properties": {
+                                     "PollId": {
+                                        "__text": "0000000020"
+                                     },
+                                     "OptionValue": {
+                                        "__text": "RIL"
+                                     },
+                                     "OptionText": {
+                                        "__text": "Reliance Industries"
+                                     },
+                                     "_xmlns:m": "http://schemas.microsoft.com/ado/2007/08/dataservices/metadata",
+                                     "_xmlns:d": "http://schemas.microsoft.com/ado/2007/08/dataservices"
+                                  },
+                                  "_type": "application/xml"
+                               }
+                            },
+                            {
+                               "id": "https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollOptionsSet('0000000020')",
+                               "title": {
+                                  "_type": "text",
+                                  "__text": "GetPollOptionsSet('0000000020')"
+                               },
+                               "updated": "2020-06-17T17:19:15Z",
+                               "category": {
+                                  "_term": "ZPOLL_SRV.GetPollOptions",
+                                  "_scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+                               },
+                               "link": [
+                                  {
+                                     "_href": "GetPollOptionsSet('0000000020')",
+                                     "_rel": "self",
+                                     "_title": "GetPollOptions"
+                                  }
+                               ],
+                               "content": {
+                                  "properties": {
+                                     "PollId": {
+                                        "__text": "0000000020"
+                                     },
+                                     "OptionValue": {
+                                        "__text": "JIO"
+                                     },
+                                     "OptionText": {
+                                        "__text": "Reliance Jio"
+                                     },
+                                     "_xmlns:m": "http://schemas.microsoft.com/ado/2007/08/dataservices/metadata",
+                                     "_xmlns:d": "http://schemas.microsoft.com/ado/2007/08/dataservices"
+                                  },
+                                  "_type": "application/xml"
+                               }
+                            }
+                         ],
+                         "_xmlns": "http://www.w3.org/2005/Atom",
+                         "_xmlns:m": "http://schemas.microsoft.com/ado/2007/08/dataservices/metadata",
+                         "_xmlns:d": "http://schemas.microsoft.com/ado/2007/08/dataservices",
+                         "_xml:base": "https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/"
+                      }
+                   },
+                   "_href": "GetPollHdrSet('DIS')/NavGetPollHdrToOptions",
+                   "_rel": "http://schemas.microsoft.com/ado/2007/08/dataservices/related/NavGetPollHdrToOptions",
+                   "_type": "application/atom+xml;type=feed",
+                   "_title": "NavGetPollHdrToOptions"
+                }
+             ],
+             "content": {
+                "properties": {
+                   "Mode": {
+                      "__text": "DIS"
+                   },
+                   "NoOfPolls": {
+                      "__text": "2"
+                   },
+                   "_xmlns:m": "http://schemas.microsoft.com/ado/2007/08/dataservices/metadata",
+                   "_xmlns:d": "http://schemas.microsoft.com/ado/2007/08/dataservices"
+                },
+                "_type": "application/xml"
+             }
+          }
+       ],
+       "_xmlns": "http://www.w3.org/2005/Atom",
+       "_xmlns:m": "http://schemas.microsoft.com/ado/2007/08/dataservices/metadata",
+       "_xmlns:d": "http://schemas.microsoft.com/ado/2007/08/dataservices",
+       "_xml:base": "https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/"
+    }
+ }

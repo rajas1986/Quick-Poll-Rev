@@ -1,0 +1,171 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xml:base="https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/">
+<id>
+https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollHdrSet
+</id>
+<title type="text">GetPollHdrSet</title>
+<updated>2020-06-17T17:19:15Z</updated>
+<author>
+<name/>
+</author>
+<link href="GetPollHdrSet" rel="self" title="GetPollHdrSet"/>
+<entry>
+<id>
+https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollHdrSet('DIS')
+</id>
+<title type="text">GetPollHdrSet('DIS')</title>
+<updated>2020-06-17T17:19:15Z</updated>
+<category term="ZPOLL_SRV.GetPollHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="GetPollHdrSet('DIS')" rel="self" title="GetPollHdr"/>
+<link href="GetPollHdrSet('DIS')/NavGetPollHdrToQues" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/NavGetPollHdrToQues" type="application/atom+xml;type=feed" title="NavGetPollHdrToQues">
+<m:inline>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xml:base="https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/">
+<id>
+https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollHdrSet('DIS')/NavGetPollHdrToQues
+</id>
+<title type="text">GetPollQuesSet</title>
+<updated>2020-06-17T17:19:15Z</updated>
+<author>
+<name/>
+</author>
+<link href="GetPollHdrSet('DIS')/NavGetPollHdrToQues" rel="self" title="GetPollQuesSet"/>
+<entry>
+<id>
+https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollQuesSet('0000000019')
+</id>
+<title type="text">GetPollQuesSet('0000000019')</title>
+<updated>2020-06-17T17:19:15Z</updated>
+<category term="ZPOLL_SRV.GetPollQues" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="GetPollQuesSet('0000000019')" rel="self" title="GetPollQues"/>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:PollId>0000000019</d:PollId>
+<d:QText>Have you completed your PME ?</d:QText>
+<d:Response/>
+<d:NoOfOptions>2</d:NoOfOptions>
+</m:properties>
+</content>
+</entry>
+<entry>
+<id>
+https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollQuesSet('0000000020')
+</id>
+<title type="text">GetPollQuesSet('0000000020')</title>
+<updated>2020-06-17T17:19:15Z</updated>
+<category term="ZPOLL_SRV.GetPollQues" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="GetPollQuesSet('0000000020')" rel="self" title="GetPollQues"/>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:PollId>0000000020</d:PollId>
+<d:QText>Which group are you working for?</d:QText>
+<d:Response/>
+<d:NoOfOptions>3</d:NoOfOptions>
+</m:properties>
+</content>
+</entry>
+</feed>
+</m:inline>
+</link>
+<link href="GetPollHdrSet('DIS')/NavGetPollHdrToOptions" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/NavGetPollHdrToOptions" type="application/atom+xml;type=feed" title="NavGetPollHdrToOptions">
+<m:inline>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xml:base="https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/">
+<id>
+https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollHdrSet('DIS')/NavGetPollHdrToOptions
+</id>
+<title type="text">GetPollOptionsSet</title>
+<updated>2020-06-17T17:19:15Z</updated>
+<author>
+<name/>
+</author>
+<link href="GetPollHdrSet('DIS')/NavGetPollHdrToOptions" rel="self" title="GetPollOptionsSet"/>
+<entry>
+<id>
+https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollOptionsSet('0000000019')
+</id>
+<title type="text">GetPollOptionsSet('0000000019')</title>
+<updated>2020-06-17T17:19:15Z</updated>
+<category term="ZPOLL_SRV.GetPollOptions" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="GetPollOptionsSet('0000000019')" rel="self" title="GetPollOptions"/>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:PollId>0000000019</d:PollId>
+<d:OptionValue>Y</d:OptionValue>
+<d:OptionText>Yes</d:OptionText>
+</m:properties>
+</content>
+</entry>
+<entry>
+<id>
+https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollOptionsSet('0000000019')
+</id>
+<title type="text">GetPollOptionsSet('0000000019')</title>
+<updated>2020-06-17T17:19:15Z</updated>
+<category term="ZPOLL_SRV.GetPollOptions" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="GetPollOptionsSet('0000000019')" rel="self" title="GetPollOptions"/>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:PollId>0000000019</d:PollId>
+<d:OptionValue>N</d:OptionValue>
+<d:OptionText>No</d:OptionText>
+</m:properties>
+</content>
+</entry>
+<entry>
+<id>
+https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollOptionsSet('0000000020')
+</id>
+<title type="text">GetPollOptionsSet('0000000020')</title>
+<updated>2020-06-17T17:19:15Z</updated>
+<category term="ZPOLL_SRV.GetPollOptions" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="GetPollOptionsSet('0000000020')" rel="self" title="GetPollOptions"/>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:PollId>0000000020</d:PollId>
+<d:OptionValue>RR</d:OptionValue>
+<d:OptionText>Reliance Retail</d:OptionText>
+</m:properties>
+</content>
+</entry>
+<entry>
+<id>
+https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollOptionsSet('0000000020')
+</id>
+<title type="text">GetPollOptionsSet('0000000020')</title>
+<updated>2020-06-17T17:19:15Z</updated>
+<category term="ZPOLL_SRV.GetPollOptions" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="GetPollOptionsSet('0000000020')" rel="self" title="GetPollOptions"/>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:PollId>0000000020</d:PollId>
+<d:OptionValue>RIL</d:OptionValue>
+<d:OptionText>Reliance Industries</d:OptionText>
+</m:properties>
+</content>
+</entry>
+<entry>
+<id>
+https://rrnwgwdev.ril.com/sap/opu/odata/sap/ZPOLL_SRV/GetPollOptionsSet('0000000020')
+</id>
+<title type="text">GetPollOptionsSet('0000000020')</title>
+<updated>2020-06-17T17:19:15Z</updated>
+<category term="ZPOLL_SRV.GetPollOptions" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+<link href="GetPollOptionsSet('0000000020')" rel="self" title="GetPollOptions"/>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:PollId>0000000020</d:PollId>
+<d:OptionValue>JIO</d:OptionValue>
+<d:OptionText>Reliance Jio</d:OptionText>
+</m:properties>
+</content>
+</entry>
+</feed>
+</m:inline>
+</link>
+<content type="application/xml">
+<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+<d:Mode>DIS</d:Mode>
+<d:NoOfPolls>2</d:NoOfPolls>
+</m:properties>
+</content>
+</entry>
+</feed>
